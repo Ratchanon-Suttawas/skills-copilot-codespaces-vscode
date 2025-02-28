@@ -1,0 +1,24 @@
+{
+  "configurations": [
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Launch Comment Server",
+      "program": "${workspaceFolder}/${input:programPath}",
+      "args": [],
+      "runtimeExecutable": "node"
+    }
+  ],
+  "inputs": [
+    {
+      "type": "pickString",
+      "id": "programPath",
+      "description": "Select the entry point for your application",
+      "options": [
+        "comment.js",
+        "member.js",
+        "skills.js"
+      ]
+    }
+  ]
+}
