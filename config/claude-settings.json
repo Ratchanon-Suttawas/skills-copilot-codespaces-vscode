@@ -1,0 +1,12 @@
+{
+    "claude": {
+        "model": {
+            "version": "3.5",
+            "name": "sonnet",
+            "preview": {
+                "enabled": true,
+                "allClients": true
+            }
+        }
+    }
+}
